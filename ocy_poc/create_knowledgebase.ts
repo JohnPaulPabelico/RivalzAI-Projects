@@ -7,7 +7,7 @@ const rivalzClient = new RivalzClient(process.env.SECRET_TOKEN || "");
 
 async function main() {
   const knowledgeBase = await rivalzClient.createRagKnowledgeBase(
-    "sample_transactional_data.pdf",
+    "context-output.pdf",
     "test_knowledge_base"
   );
   console.log(knowledgeBase);
@@ -18,7 +18,6 @@ async function main() {
     knowledgeBase.id
   );
   console.log("Knowledgebase is ", knowledgeBaseStatus.status);
-
 }
 
 main();
