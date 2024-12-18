@@ -8,11 +8,11 @@ dotenv.config();
 const rivalzClient = new RivalzClient(process.env.SECRET_TOKEN || "");
 
 async function main() {
-  const filePath = path.join(__dirname, "./sample.pdf");
-  const fileBuffer = fs.readFileSync(filePath); 
+  const ipfsHash =
+    "a31f25bea581ab5f22f1e210736cc5d1451661512dd88e89e4c761f00c2a090b";
 
-  const uploadedFile = await rivalzClient.uploadFile(fileBuffer, "sample.pdf");
-  console.log(uploadedFile);
+  const downloadedFile = await rivalzClient.downloadFile(ipfsHash, "../");
+  console.log(downloadedFile);
 }
 
 main();

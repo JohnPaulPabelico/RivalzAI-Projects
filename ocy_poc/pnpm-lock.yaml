@@ -15,8 +15,8 @@ importers:
         specifier: ^0.15.1
         version: 0.15.1
       rivalz-client:
-        specifier: ^1.2.8
-        version: 1.2.8
+        specifier: ^1.3.5
+        version: 1.3.5
     devDependencies:
       '@types/node':
         specifier: ^22.10.0
@@ -336,8 +336,8 @@ packages:
   restructure@2.0.1:
     resolution: {integrity: sha512-e0dOpjm5DseomnXx2M5lpdZ5zoHqF1+bqdMJUohoYVVQa7cBdnk7fdmeI6byNWP/kiME72EeTiSypTCVnpLiDg==}
 
-  rivalz-client@1.2.8:
-    resolution: {integrity: sha512-ncb4Xxoz0is4BUAzukyXnHhLjBxqK/6zCB6Oz3hCNgjiXhLdgwUfgUD36ZIbx78vNuFKjlnn1BmGLYURbDnXsA==}
+  rivalz-client@1.3.5:
+    resolution: {integrity: sha512-SsBSsw+IYDuTwZ8Fk5xZEx13hk5DzNtrbfb7ZU7rA7/Qo0gjiifZIAlMNik4fTAHpPa20ib0uzB+kLs4L2I7AA==}
 
   set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
@@ -733,7 +733,7 @@ snapshots:
 
   restructure@2.0.1: {}
 
-  rivalz-client@1.2.8:
+  rivalz-client@1.3.5:
     dependencies:
       axios: 1.7.8
     transitivePeerDependencies:
